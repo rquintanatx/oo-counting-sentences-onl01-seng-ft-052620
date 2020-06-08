@@ -16,7 +16,7 @@ class String
 
   def count_sentences
     sentence_array = self.split()
-    filtered_sentence_array = sentence_array
+    filtered_sentence_array = sentence_array.reject
     puts filtered_sentence_array.count
   end
 end
