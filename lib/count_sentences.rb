@@ -18,5 +18,6 @@ class String
     sentence_array = self.split()
     filtered_sentence_array = sentence_array.reject{|sentence| sentence = " "}
     filtered_sentence_array.count
+    binding.pry
   end
 end
