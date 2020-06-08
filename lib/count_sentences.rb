@@ -18,6 +18,5 @@ class String
     sentence_array = self.split()
     filtered_sentence_array = sentence_array.select{|sentence| sentence != " "}
     filtered_sentence_array.count
-    binding.pry
   end
 end
