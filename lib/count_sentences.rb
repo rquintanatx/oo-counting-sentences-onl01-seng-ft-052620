@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-    sentence_array = self.split("?",".","!")
+    sentence_array = self.split("?",".")
     filtered_sentence_array = sentence_array.reject {|i| i.empty?}
     binding.pry
     puts filtered_sentence_array.count
